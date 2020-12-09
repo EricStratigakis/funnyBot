@@ -1,4 +1,6 @@
 # data loader
+#    website -> csv -> local
+#    provide website / api documentation
 
 class Endpoint:
     def __init__(self, endpoint, url_params, description):
@@ -27,3 +29,19 @@ test_data_source = DataSource(
 )
 
 print(test_data_source.get_endpoints())
+
+# data shaper
+#   local csv/df -> tensor/other
+
+########################################################################
+
+# dojo
+#   tensor -> ???
+#   
+
+# goal 1 : rank all the players
+#   training set:
+#   testing set:
+#   
+
+########################################################################

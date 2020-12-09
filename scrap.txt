@@ -1,0 +1,14 @@
+-> 12 teams:
+-> 13 players per game
+-> 15 players per team (injuured lsiot mechanics)
+-> 8 teams make the playoffs
+
+Game
+    -> Win
+        -> 2pts
+
+    -> loss
+        -> 0 pts
+
+    -> tie
+        -> 1 pts

@@ -1,5 +1,6 @@
-# fantasy logic 
+# fantasy logic
 import numpy
+
 class Player:
     def __init__(self, name, ID, positions, health_status, avg_stats, current_stats=[]):
         self.name, self.ID, self.positions, self.health_status self.avg_stats = name, ID, positions, health_status, avg_stats
@@ -29,7 +30,6 @@ class Player:
 
     def recover(self):
         self.health_status = True
-
 class Owner:
     def __init__(self, name, team=[], lineup=[], record=[0, 0, 0], draft_pos, weekly_totals):
         self.name, self.team, self.lineup, self.record, self.draft_pos, self.weekly_totals = name, team, lineup, record, draft_pos, weekly_totals
@@ -59,7 +59,6 @@ class Owner:
 
     def get_weekly_totals(self, weekly_totals):
         return weekly_totals
-
 class League:
     def __init__(self, ID, owners=[], available_players, standings, date, ):
         self.ID, self.owners, self.available_players, self.standings = ID, owners, available_players, standings
@@ -96,3 +95,4 @@ class League:
     def create_playoff_schedule(self, owners, standings):
         pass
 
+[1,2,3].map(lambda : x + 1)
